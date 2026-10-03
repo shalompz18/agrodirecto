@@ -37,4 +37,4 @@ volumes:
   db_data:
 networks:
   my-network-name:
-    name: springcloud
+    name: agrodirecto-network
