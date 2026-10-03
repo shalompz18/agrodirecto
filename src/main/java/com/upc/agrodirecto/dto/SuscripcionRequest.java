@@ -1,0 +1,6 @@
+package com.upc.agrodirecto.dto;
+
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
+
+public record SuscripcionRequest(@NotNull @Positive Double montoPagado) {}
